@@ -1,13 +1,13 @@
 var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Hola que pasa",
     title: "Nerdia",
-    about: "Enriquecimiento ambiental para suricatas"
+    about: "Dispositivo de enriquecimiento ambiental para suricatas"
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
     title: "Cleanflip",
-    about: "Filtro de desagüe para la tina"
+    about: "Filtro para desagüe de la tina"
 }, {
     figure: "media/trabajo-03-homy.jpg",
     alt: "Descripción de la imagen",
@@ -22,7 +22,7 @@ var trabajos = [{
     figure: "media/trabajo-05-artesania.jpg",
     alt: "Descripción de la imagen",
     title: "STRECH",
-    about: "Indumentaria deportiva para voleibol"
+    about: "Indumentaria deportiva de voleibol para personas con parálisis cerebral"
 }, {
     figure: "media/trabajo-06-textil.jpg",
     alt: "Descripción de la imagen",
@@ -31,8 +31,8 @@ var trabajos = [{
 }, {
     figure: "media/trabajo-07-materiales.jpg",
     alt: "Descripción de la imagen",
-    title: "Líne NO FEAR",
-    about: "Indumentaria deportiva para MO Sport"
+    title: "NO FEAR",
+    about: "Línea de indumentaria deportiva para MO Sport"
 }];
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
 $.each(trabajos, function(i, val) {
