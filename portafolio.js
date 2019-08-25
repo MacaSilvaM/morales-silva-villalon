@@ -15,14 +15,14 @@ var trabajos = [{
     about: "Protector de muñón para deporte"
 }, {
     figure: "media/trabajo-04-editorial.jpg",
-    alt: "Macetero desplegable en forma hexagonal abierto en sus tres etapas de uso",
-    title: "REBROTE",
-    about: "Sistema simplifacado de cultivos hidropónicos"
-}, {
-    figure: "media/trabajo-05-artesania.jpg",
     alt: "Hombre en cancha con el dispositivo estirado entre sus brazos para recibir la pelota",
     title: "STRECH",
     about: "Indumentaria deportiva de voleibol para personas con parálisis cerebral"
+}, {
+    figure: "media/trabajo-05-artesania.jpg",
+    alt: "Macetero desplegable en forma hexagonal abierto en sus tres etapas de uso",
+    title: "REBROTE",
+    about: "Sistema simplificado de cultivos hidropónicos para la emergencia"
 }, {
     figure: "media/trabajo-06-textil.jpg",
     alt: "Luminaria con forma cilíndrica encendida y colgada del cielo en fondo oscuro",
