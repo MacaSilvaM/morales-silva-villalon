@@ -1,6 +1,6 @@
 var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
-    alt: "Hola que pasa",
+    alt: "fgh",
     title: "Nerdia",
     about: "Dispositivo de enriquecimiento ambiental para suricatas"
 }, {
