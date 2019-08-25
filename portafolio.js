@@ -1,36 +1,36 @@
 var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
-    alt: "fgh",
-    title: "Nerdia",
+    alt: "Dos suricatas comiendo alrededor de un dispositivo que imita un tocón y está cubierto con corteza de árbol",
+    title: "NERDIA",
     about: "Dispositivo de enriquecimiento ambiental para suricatas"
 }, {
     figure: "media/trabajo-02-app.jpg",
-    alt: "Descripción de la imagen",
-    title: "Cleanflip",
-    about: "Filtro para desagüe de la tina"
+    alt: "Superficie de planchado colgada detrás de la puerta del baño con una mujer planchando una camisa",
+    title: "PLISA",
+    about: "Superficie de planchado rápido"
 }, {
     figure: "media/trabajo-03-homy.jpg",
-    alt: "Descripción de la imagen",
-    title: "OSLO",
-    about: "Mesa extendible"
+    alt: "Persona amputada de antebrazo colocándose el protector",
+    title: "KOR",
+    about: "Protector de muñón para deporte"
 }, {
     figure: "media/trabajo-04-editorial.jpg",
-    alt: "Descripción de la imagen",
-    title: "Rebrote",
+    alt: "Macetero desplegable en forma hexagonal abierto en sus tres etapas de uso",
+    title: "REBROTE",
     about: "Sistema simplifacado de cultivos hidropónicos"
 }, {
     figure: "media/trabajo-05-artesania.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Hombre en cancha con el dispositivo estirado entre sus brazos para recibir la pelota",
     title: "STRECH",
     about: "Indumentaria deportiva de voleibol para personas con parálisis cerebral"
 }, {
     figure: "media/trabajo-06-textil.jpg",
-    alt: "Descripción de la imagen",
-    title: "KOR",
-    about: "Protector de muñón"
+    alt: "Luminaria con forma cilíndrica encendida y colgada del cielo en fondo oscuro",
+    title: "CÁÑAMO",
+    about: "Luminaria de cáñamo afieltrado"
 }, {
     figure: "media/trabajo-07-materiales.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Hombre sentado en el borde de la cancha, con polera deportiva y su mochila al lado",
     title: "NO FEAR",
     about: "Línea de indumentaria deportiva para MO Sport"
 }];
