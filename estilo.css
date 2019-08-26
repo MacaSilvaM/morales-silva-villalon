@@ -69,9 +69,6 @@ h3{
   letter-spacing:0.1em;
 }
 
-h5, h6{
-    font-weight:700;
-}
 
 a{
     color:#54568e;
@@ -237,7 +234,7 @@ AHORA VAMOS POR PORTAFOLIO
 .item {
     width:23%;
     margin:1%;
-    color:#333;
+    color:#181b3f;
     background:#eee;
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
