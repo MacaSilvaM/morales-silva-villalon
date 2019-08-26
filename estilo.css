@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 /*
 
@@ -15,27 +15,35 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'DM Sans', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:#FFFFFF; /*el primer par es R, segundo es G y tercero es B*/
+    background-color:#f8fdff; /*el primer par es R, segundo es G y tercero es B*/
 }
 
-h1, h2{
-    font-family:'Space Mono', monospace;
-    color:#FFFFFF; /* lo básico, para evitar problemas */
-    color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
+h1{
+    font-family:'Noto serif', serif;
+    color:#202020; /* lo básico, para evitar problemas */
+    /*color:rgba(32,32,32,1); */
+    text-align:center;
+    letter-spacing:0.1em;
+    font-weight:700;
+}
+h2{
+    font-family:'Barlow', sans-serif;
+    color:#202020; /* lo básico, para evitar problemas */
+    /*color:rgba(32,32,32,1);  */
     text-align:center;
     letter-spacing:0.1em;
     font-weight:700;
 }
 
 h1{
-    font-size:3rem;
+    font-size:5rem;
 }
 
 h2{
-    font-size:2rem;
+    font-size:1.2rem;
     letter-spacing:0.1em;
 }
 
@@ -69,7 +77,7 @@ a:hover{
 
 header{
     width:100%;
-    top:36%;
+    top:4%;
     position: absolute;
     text-align:center;
     z-index:9;
@@ -81,7 +89,7 @@ header{
 
 video{
     width:98%;
-    padding:1% 1% .75% 1%;
+    padding:15% 1% .75% 1%;
     height:auto;
 }
 
@@ -150,7 +158,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     font-size:.8rem;
     letter-spacing : 0.1rem;
     padding-top:0.25rem;
-    color:rgba(255,255,255,.75);
+    color:#fff;
 }
 
 .integrante blockquote cite:before {
@@ -158,7 +166,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#F83277;
+    background-color:#54568e;
     background-image:url('media/integrante-1a.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -167,7 +175,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2){
-    background:#F93332;
+    background:#54568e;
     background-image:url('media/integrante-2a.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -175,7 +183,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(3){
-    background:#FA7633;
+    background:#54568e;
     background-image:url('media/integrante-3a.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -183,7 +191,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#c2185b;
+    background-color:#bdbac1;
     background-image:url('media/integrante-1b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -191,7 +199,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(2):hover{
-    background:#d32f2f;
+    background:#c5cae9;
     background-image:url('media/integrante-2b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -199,7 +207,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(3):hover{
-    background:#ef6c00;
+    background:#9499b7;
     background-image:url('media/integrante-3b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -215,7 +223,7 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:linear-gradient(to bottom, #EEEEEE, #AAAAAA);
+    background:#f8fdff;
 }
 
 .item {
@@ -239,7 +247,7 @@ AHORA VAMOS POR PORTAFOLIO
          width:96%;
          margin:2%;
          background:#000;
-         color:#FFF;
+         color:#f8fdff;
     }
 }
  .item:hover{
@@ -252,7 +260,7 @@ AHORA VAMOS POR PORTAFOLIO
      width:100%;
      height:auto;
      margin-bottom:-4px;
-     filter: grayscale(1);
+     filter: grayscale(0);
 }
  .item:hover figure img{
      transform:scale(2);
