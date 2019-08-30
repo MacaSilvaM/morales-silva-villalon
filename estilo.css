@@ -45,18 +45,19 @@ h1{
 }
 
 h2{
-    font-size:1.2rem;
+    font-size:1.5rem;
     letter-spacing:0.1em;
 }
 
 @media screen and (max-width: 768px){
     h1{ font-size:2.25rem; }
-    h2{ font-size:1.5rem; }
+    h2{ font-size:1rem; }
+
 }
 
 @media screen and (max-width: 576px){
     h1{ font-size:1.5rem; }
-    h2{ font-size:1rem; }
+    h2{ font-size:0.6rem; }
 }
 
 h3{
@@ -94,8 +95,15 @@ header{
 
 video{
     width:98%;
-    padding:21% 1% .75% 1%;
+    padding:40% 1% 4% 1%;
     height:auto;
+}
+
+@media screen and (max-width: 768px){
+    video {padding:50% 1% 5% 1%}
+}
+@media screen and (max-width: 576px){
+    video{padding:60% 1% 6% 1%}
 }
 
 main{
@@ -243,16 +251,16 @@ AHORA VAMOS POR PORTAFOLIO
     .item{
         width:48%;
         margin:1%;
-        background:#333;
-        color:#eee;
+        background:#eee;
+        color:#181b3f;
     }
 }
  @media screen and (max-width: 576px){
      .item{
          width:96%;
          margin:2%;
-         background:#000;
-         color:#f8fdff;
+         background:#eee;
+         color:#181b3f;
     }
 }
  .item:hover{
