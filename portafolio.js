@@ -18,7 +18,7 @@ var trabajos = [{
     about: "Protector de muñón deportivo, para personas amputadas de tren superior",
     url:"https://www.instagram.com/p/B1mmWaDnD_4/"
 }, {
-    figure: "media/Cáñamo.jpg",
+    figure: "media/Cáñamo.jpeg",
     alt: "Luminaria con forma cilíndrica encendida y colgada del cielo en fondo oscuro",
     title: "CÁÑAMO",
     about: "Luminaria de cáñamo afieltrado",
