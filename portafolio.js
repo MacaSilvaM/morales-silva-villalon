@@ -15,7 +15,7 @@ var trabajos = [{
     figure: "media/KOR.jpg",
     alt: "Persona amputada de antebrazo colocándose el protector",
     title: "KOR",
-    about: "Protector de muñón para deporte diseñado para personas amputadas de tren superior",
+    about: "Protector de muñón deportivo, para personas amputadas de tren superior",
     url:"https://www.instagram.com/p/B1mmWaDnD_4/"
 }, {
     figure: "media/Cáñamo.jpeg",
