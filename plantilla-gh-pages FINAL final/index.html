@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TOC</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos genéricos -->
+    <meta name="description" content="Portafolio de un trío de diseñadoras obsesivas compulsivas pero tiernas y comprensivas">
+    <meta name="image" content="media/imagen.png">
+    <!-- Metadatos Twitter -->
+    <meta name="twitter:card" content="Trío de diseñadoras">
+    <meta name="twitter:title" content="TOC">
+    <meta name="twitter:description" content="Trío obsesivo compulsivo pero tierno y comprensivo">
+    <meta name="twitter:image:src" content="media/imagen.png">
+    <!-- Metadatos Open Graph (Facebook, Pinterest & LinkedIn) -->
+    <meta name="og:title" content="TOC">
+    <meta name="og:description" content="Trío obsesivo compulsivo pero tierno y comprensivo">
+    <meta name="og:image" content="media/imagen.png">
+    <meta name="og:type" content="https://macasilvam.github.io/morales-silva-villalon/">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div><img alt="TOC" src="media/titulopagina.png"></div>
+
+        <h2>Trío obsesivo compulsivo pero tierno y comprensivo</h2>
+    </header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="media/video.webm" type="video/webm">
+        <source src="media/video.mp4" type="video/mp4">
+    </video>
+
+    <main>
+        <h3>PROYECTOS</h3>
+        <section id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+        </section>
+        <section id="equipo">
+            <div class="integrante">
+                <h4>Alejandra M. Cuitiño</h4>
+                <address><a href="mailto:mail@uc.cl">agmorales@uc.cl</a></address>
+                <blockquote>El diseño es una forma de ver la vida.<cite>M. Cuitiño</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>Macarena Silva</h4>
+                <address><a href="mailto:mail@uc.cl">mdsilva12@uc.cl</a></address>
+                <blockquote>Todo ha sido diseñado desde el inicio de la humanidad, para bien o para mal.<cite>Karim Rashid</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>Francisca Villalón</h4>
+                <address><a href="mailto:mail@uc.cl">fvillalon@uc.cl</a></address>
+                <blockquote>Diseñando te vuelves loco pero el resultado te vuelve feliz.<cite>Villalón</cite></blockquote>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Procesos de Producción · sección web · segundo semestre · 2019</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
